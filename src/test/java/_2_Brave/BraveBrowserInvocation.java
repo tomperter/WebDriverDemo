@@ -26,6 +26,7 @@ public class BraveBrowserInvocation
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get("http://google.com");
+		
 	}
 	
 	@Test
